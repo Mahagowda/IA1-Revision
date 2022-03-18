@@ -11,9 +11,9 @@ int sum_n(int n)
   int ans;
   ans = 0;
   for(int i=1;i<=n;i++)
-  {
+{
     ans+=i;
-  }
+}
   return ans;
 }
 void output(int n,int sum)

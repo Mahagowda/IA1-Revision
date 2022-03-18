@@ -41,6 +41,6 @@ int main()
   z=input();
   largest=cmp(x,y,z);
   output(largest);
-  printf("end odcode");
+  printf("end od code");
   return 0;
 }
