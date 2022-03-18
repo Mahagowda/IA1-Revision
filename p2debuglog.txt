@@ -1,4 +1,4 @@
-gcc -g p2final.c
+ gcc -g p2final.c
  gdb ./a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -18,28 +18,23 @@ Reading symbols from ./a.out...done.
 (gdb) b main
 Breakpoint 1 at 0x7d8: file p2final.c, line 39.
 (gdb) r
-Starting program: /home/runner/IA1-Revision/a.out 
+Starting program: /home/runner/IA1-Revision-1/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p2final.c:39
 39    x=input();
 (gdb) n
-enter the values:4
+enter the values:1
 40    y=input();
 (gdb) n
-enter the values:6
+enter the values:1
 41    z=input();
 (gdb) n
-enter the values:8
+enter the values:2
 42    largest=cmp(x,y,z);
 (gdb) n
 43    output(largest);
 (gdb) n
-the largest number is:8
+the largest number is:2
 44    printf("end od code");
-(gdb) n
-45    return 0;
-(gdb) c
-Continuing.
-end od code[Inferior 1 (process 614) exited normally]
 (gdb)
