@@ -1,4 +1,4 @@
- gcc -g p6final.c
+ gcc -g p6final.c
  gdb ./a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -18,19 +18,20 @@ Reading symbols from ./a.out...done.
 (gdb) b main
 Breakpoint 1 at 0x87e: file p6final.c, line 31.
 (gdb) r
-Starting program: /home/runner/IA1-Revision/a.out 
+Starting program: /home/runner/IA1-Revision-1/a.out 
 warning: Error disabling address space randomization: Operation not permitted
-n
+
 Breakpoint 1, main () at p6final.c:31
 31  {
 (gdb) n
 34   input_two_strings(a, b);
 (gdb) n
-Enter the word:3 5
+Enter the word:3
+Enter the word:5
 35   ans = cmp(a,b);
 (gdb) n
 36   output(a, b,ans);
 (gdb) n
-Enter the word:5 is greater than 3
+5 is greater than 3
 37   return 0;
 (gdb)

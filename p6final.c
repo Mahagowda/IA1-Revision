@@ -15,17 +15,17 @@ int cmp(char *a, char *b)
 void output(char *a, char *b, int ans)
 {
  if(ans < 0)
- {
+  {
  printf("%s is greater than %s\n",b,a);
- }
+  }
  else if(ans > 0)
- {
+  {
  printf("%s is greater than %s\n",a,b);
- }
+  }
  else
- {
+  {
  printf("%s is greater than %s\n",b,a);
- }
+  }
 }
 int main()
 {
