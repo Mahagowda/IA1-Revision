@@ -18,7 +18,7 @@ Reading symbols from ./a.out...done.
 (gdb) b main
 Breakpoint 1 at 0x81d: file p5final.c, line 29.
 (gdb) r
-Starting program: /home/runner/IA1-Revision/a.out 
+Starting program: /home/runner/IA1-Revision-1/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p5final.c:29
@@ -30,4 +30,4 @@ Enter a number to find the sqaure root of: 4
 31   output(n, sres);
 (gdb) n
 Square root of given input 4.00 is = 2.00 
-32  }(gdb)
+32  }

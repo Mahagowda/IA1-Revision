@@ -13,8 +13,8 @@ float squareroot(float n)
  float e = 0.000001;
  while (x - y > e)
  {
- x = (x + y) / 2;
- y = n / x; 
+  x = (x + y) / 2;
+  y = n / x; 
  }
  return x;
 }
