@@ -1,4 +1,5 @@
- gcc -g p7final.c
+ 
+ gcc -g p7final.c
  gdb ./a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -17,10 +18,8 @@ Type "apropos word" to search for commands related to "word"...
 Reading symbols from ./a.out...done.
 (gdb) b main
 Breakpoint 1 at 0x772: file p7final.c, line 8.
-(gdb) n
-The program is not being run.
 (gdb) r
-Starting program: /home/runner/IA1-Revision/a.out 
+Starting program: /home/runner/IA1-Revision-1/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p7final.c:8
@@ -46,7 +45,4 @@ Enter c and d where c + id is the second complex number.
 (gdb) n
 Sum of the complex numbers: (6) + (8i)
 21     return 0;
-(gdb) c
-Continuing.
-[Inferior 1 (process 47) exited normally]
 (gdb)
